@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Jarvix</string>
+    <string name="subtitle">Co-piloting your life.</string>
+    <string name="pending_reminders">Pending reminders</string>
+    <string name="empty_state_title">Nothing on your plate!</string>
+    <string name="empty_state_subtitle">Press and hold the mic, then tell me what to remember.</string>
+    <string name="mark_done">Mark done</string>
+    <string name="record_voice_command">Record voice command</string>
+    <string name="status_listening">LISTENING</string>
+    <string name="status_analyzing">ANALYZING</string>
+    <string name="status_speaking">SPEAKING</string>
+    <string name="status_hold_to_speak">HOLD TO SPEAK</string>
+    <string name="delete_task">Delete task</string>
+    <string name="ambient_on">Turn ambient sound off</string>
+    <string name="ambient_off">Turn ambient sound on</string>
+</resources>

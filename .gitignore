@@ -1,0 +1,31 @@
+# Secrets - never commit these. See agent.md golden rule 4.
+local.properties
+**/local.properties
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+
+# Android build output (also covered per-module, kept here as a backstop)
+**/build/
+**/.gradle/
+**/.cxx/
+**/.externalNativeBuild/
+*.apk
+*.aab
+
+# Scratch AI-generation artifacts (icon/audio/poster provenance, not app source -
+# see assets_gen note in agent.md). Large and not meant for the public repo.
+assets_gen/
+
+.DS_Store
+
+# Stale day-one debugging leftovers, superseded by current code
+*.bak
+Jarvix/out.json
+Jarvix/implementation_plan.artifact.md
+
+# Personal interview/recruiter prep notes - local only, never pushed
+INTERVIEW_PREP.md
